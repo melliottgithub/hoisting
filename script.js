@@ -79,10 +79,10 @@ function deleteAll() {
 
 // check window on the console
 
-var x = 1; //global memory??
+var x = 1; //global memory?? 
 let y = 10;
 const z = 100;
 
-console.log(x === window.x);
-console.log(y === window.y);
-console.log(z === window.z);
+console.log(x === window.x); //true
+console.log(y === window.y); //false
+console.log(z === window.z); //false
